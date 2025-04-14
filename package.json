@@ -1,0 +1,27 @@
+{
+  "name": "formula-llm",
+  "version": "1.0.0",
+  "description": "公式识别与问答系统 - 基于Qwen2.5-VL和Qwen2.5-Coder的公式提取、代码生成与问答系统",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node scripts/start.js",
+    "start": "python pipe.py",
+    "build": "echo \"No build step required\" && exit 0"
+  },
+  "keywords": [
+    "formula",
+    "ocr",
+    "ai",
+    "question-answering"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "inquirer": "^8.2.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
